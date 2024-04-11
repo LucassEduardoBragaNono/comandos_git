@@ -1,0 +1,8 @@
+Para adicionar um arquivo no git
+
+git add .
+git status /*(conferir)*/
+git commit -a -m "..." /*(... = nome que irá aparecer no GitHub)*/
+git push origin master /*(enviar para o GitHub)*/
+
+Pronto, caso queira verificar se deu certo, de um "git status" ou acesse o repositório no GitHub.
