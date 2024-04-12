@@ -1,0 +1,22 @@
+Um ramo é muito importante para trabalhar em equipes. Ele permite que você crie altere os arquivos
+sem alterar o arquivo "original" vamos codificar para esclarecer: 
+git checkout -b "novabranch" /*o -b cria uma nova branch*/
+git add. /*crie um novo arquivo ou faça alterações em um existente*/
+git commit -a -m "alteração"
+git push origin master
+
+Após isso uma pull request será solicitada ao seu GitHub, apenas o dono do repositório
+pode aceitar a solicitação, você conseguirá ver as alterações feitas
+e comparar com o arquivo original, caso o novo arquivo com as alterações for aceitado, elas irão para o arquivo original
+
+Para trocar a branch use o comando: 
+git branch "..." (nome da branch, se for feito como acima será master, e caso queira voltar para a outra digite o comando e depois o nome da branch)
+
+Após isso você verá que abrindo o arquivo as alterações não estarão lá(pois você trocou de branch) caso queira pegar as alterações de o comando: 
+git pull origin master
+
+
+
+Alguns outros comandos
+git branch -l   /*Lista todas os branches*/
+-

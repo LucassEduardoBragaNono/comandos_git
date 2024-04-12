@@ -1,0 +1,22 @@
+Criar um repositório compartilhado:
+
+Seu computador: 
+git init
+git remote add origin https... /*(link do repositório)*/
+git add .
+git commit -a -m "..."
+git push origin master
+Adicione um colaborador no GitHub (Repositorio->Settings->Collaborators)
+
+Computador de seu colega:
+Aceite o convite(Aparecerá no GitHub)
+git clone https... /*(Vai clonar os arquivos que estão no repositório)*/
+Faça modificações/crie um novo arquivo
+git add .
+git commit -a -m "..."
+git push origin master
+
+Seu computador:
+git pull origin master /*(você receberá as alterações feitas)*/
+
+IMPORTANTE: seu amigo estará na branch master
